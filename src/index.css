@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #404E80;
+  background-image: url('./assets/hero.svg');
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: top;
+  backdrop-filter: blur(3px);
+  height: 100vh;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@font-face {
+  font-family: 'EllenLuffReg';
+  src: url('./assets/EllenLuffReg.otf');
+}
+
+*{
+  font-family: 'EllenLuffReg';
+  font-weight: 400;
+}
